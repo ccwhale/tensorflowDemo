@@ -177,7 +177,7 @@ def plot_weights():
 print_accuracy()
 plot_example_errors()
 
-optimize(num_iterations=10000)
+optimize(num_iterations=10)
 print_accuracy()
 
 plot_example_errors()

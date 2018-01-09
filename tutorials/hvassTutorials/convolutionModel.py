@@ -530,14 +530,15 @@ def plot_image(image):
     plt.show()
 
 
-image1 = data.test.images[0]
-plot_image(image1)
-image2 = data.test.images[13]
-plot_image(image2)
+# image1 = data.test.images[0]
+# plot_image(image1)
+# image2 = data.test.images[13]
+# plot_image(image2)
 plot_conv_weights(weights=weights_conv1)
-plot_conv_layer(layer=layer_conv1, image=image1)
-plot_conv_layer(layer=layer_conv1, image=image2)
-plot_conv_layer(layer=layer_conv2, image=image1)
-plot_conv_layer(layer=layer_conv2, image=image2)
+plot_conv_weights(weights=weights_conv2)
+# plot_conv_layer(layer=layer_conv1, image=image1)
+# plot_conv_layer(layer=layer_conv1, image=image2)
+# plot_conv_layer(layer=layer_conv2, image=image1)
+# plot_conv_layer(layer=layer_conv2, image=image2)
 
 session.close()
